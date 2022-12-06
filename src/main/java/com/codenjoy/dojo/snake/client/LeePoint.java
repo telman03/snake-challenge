@@ -32,8 +32,8 @@ public class LeePoint {
     }
 
     @Override
-    public int hashCode() { // int size: 0..2^32
-        return x << 16 + y;   // 0..2^16
+    public int hashCode() { 
+        return x << 16 + y; 
     }
 
     @Override
