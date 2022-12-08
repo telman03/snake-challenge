@@ -107,7 +107,7 @@ public class Lee {
         LeePoint curr_p = finish;
         while (counter[0] > 0) {
             counter[0]--;
-            LeePoint prev_p = neighboursByValue(curr_p, counter[0]).get(0);// pick any point
+            LeePoint prev_p = neighboursByValue(curr_p, counter[0]).get(0);
             path.addFirst(prev_p);
             curr_p = prev_p;
         }
