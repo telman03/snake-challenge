@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Optional;
 
 public class MyAlgo {
-    private List<LeePoint> obstacles=new ArrayList<>();
+    private final List<LeePoint> obstacles=new ArrayList<>();
     private Point head;
-    private Point tail;
-    private Point apple;
-    private Point stone;
-    private int boardx;
-    private int boardy;
+    private final Point tail;
+    private final Point apple;
+    private final Point stone;
+    private final int boardx;
+    private final int boardy;
 
     public MyAlgo(Board board) {
 

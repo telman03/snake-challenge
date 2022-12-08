@@ -37,12 +37,10 @@ import java.util.List;
 
 public class YourSolver implements Solver<Board> {
 
-    private Dice dice;
     private Board board;
-    private List<LeePoint> obstacles=new ArrayList<>();
+    private final List<LeePoint> obstacles=new ArrayList<>();
 
     public YourSolver(Dice dice) {
-        this.dice = dice;
     }
 
     @Override

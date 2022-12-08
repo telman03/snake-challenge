@@ -6,7 +6,7 @@ public class LeePoint {
 
     public LeePoint(int x, int y) {
         this.x = x;
-        this.y = y;
+        this.y = y;     
     }
 
     public static LeePoint of(int x, int y) {
