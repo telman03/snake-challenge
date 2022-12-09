@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class MyAlgo {
-    private final List<LeePoint> obstacles=new ArrayList<>();
+    private final List<LeePoint> obstacles = new ArrayList<>();
     private Point head;
     private final Point tail;
     private final Point apple;
